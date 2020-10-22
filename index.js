@@ -21,6 +21,7 @@ function iLoveTheBeatles(n) {
   let i = 0;
   do{
     love.push("I love the Beatles!")
+    console.log(love[i])
     i++
   }while(i<n)
   return love
