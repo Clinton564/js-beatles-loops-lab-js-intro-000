@@ -5,6 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
     console.log(musicians[i])
     console.log(instruments[i])
     beatlesPlay.push(musicians[i] + " play the " + instruments[i])
+    console.log(beatlesPlay[i])
     console.log('test')
   }
 }
