@@ -21,4 +21,6 @@ function iLoveTheBeatles(n) {
   do{
     love.push("I love the Beatles!")
   }while(0>5)
+  return love
 }
+
