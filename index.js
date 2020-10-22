@@ -4,7 +4,7 @@ function theBeatlesPlay(musicians, instruments) {
   for(let i = 0; i < musicians.length; i++) {
     console.log(musicians[i])
     console.log(instruments[i])
-    beatlesPlay.push(musicians[i] + " play the " + instruments[i])
+    beatlesPlay.push(musicians[i] + " plays " + instruments[i])
     console.log(beatlesPlay[i])
     console.log('test')
   }
