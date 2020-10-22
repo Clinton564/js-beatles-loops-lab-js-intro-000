@@ -24,6 +24,6 @@ function iLoveTheBeatles(n) {
     love.push("I love the Beatles!")
     console.log(love[i])
     i++
-  }while(i<=n)
+  }while(i<=n && n<16)
   return love
 }
